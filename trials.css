@@ -1,0 +1,381 @@
+*
+{
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+html, body
+{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	position: fixed;
+}
+.top
+{
+	width: 100%;
+	height: 640px;
+	background-image: url(dj.jpg);
+	background-size: cover;
+}
+.login
+{
+	float: right;
+	margin-right: 130px;
+	margin-top: 20px;
+	border: 2px solid white;
+	border-radius: 20px;
+	width: 4%;
+	padding: 10px 20px;
+	text-align: center;
+	font-family: Candara;
+}
+.login a
+{
+	text-decoration: none;
+	color: white;
+}
+.content
+{
+ position: relative;
+ top: 170px;
+ left: 130px;
+}
+.logo1 , .logo2
+{
+	position: relative;
+	top: 45px;
+	font-size: 18px;
+	left: 130px;
+	font-family: Arial;
+}
+.logo1
+{
+	color: white;
+	opacity: 80%;
+}
+.logo2
+{
+	color: white;
+	font-weight: bold;
+}
+.content1
+{
+ color: white;
+ font-weight: bold;
+ font-family: Arial;
+ font-size: 25px;
+}
+.content2
+{
+	color: white;
+	font-weight: 900;
+	font-size: 30px;
+	font-family: Verdana;
+}
+.content3
+{
+	font-family: "Arial";
+	color: white;
+	font-weight: normal;
+	opacity: 80%;
+	line-height: 1.6;
+}
+.signup
+{
+	margin-top: 40px;
+}
+.signup a
+{
+	text-decoration: none;
+	color: white;
+	background-color: #9400D3;
+	border-radius: 30px;
+	padding: 15px 20px;
+	font-family: Candara;
+	font-weight: bold;
+}
+.middle
+{
+   background-color: #181818;
+   width: 100%;
+   height: 500px;
+}
+.imgmid
+{
+	position: relative;
+	top: 90px;
+	left: 130px;
+	box-shadow: 8px 8px #383838 , 20px 20px #282828;
+}
+.caption
+{
+	position: absolute;
+	top: 720px;
+	left: 500px;
+	color: white;
+}
+.caption1
+{
+	font-family: Cambria;
+	font-weight: lighter;
+	opacity: 30%;
+	font-size: 20px;
+}
+.caption2
+{
+	margin-top: 5px;
+	font-family: Verdana;
+	font-weight: 500;
+	font-size: 30px;
+}
+.caption3
+{
+	margin-top: 45px;
+	font-family: Arial;
+	opacity: 85%;
+	width: 70%;
+}
+.more
+{
+	margin-top: 50px;
+}
+.more a
+{
+	text-decoration: none;
+	color: white;
+	background-color: #9400D3;
+	padding: 15px 30px;
+	border-radius: 30px;
+	font-family: "Arial Narrow";
+	font-weight: 600;
+}
+.bottom
+{
+	width: 100%;
+	height: 450px;
+	background-color: #202020;
+	position: relative;
+}
+.imgbtm
+{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	opacity: 30%;
+}
+.end
+{
+ position: relative;
+ top: 80px;
+ left: 130px;
+ color: white;
+}
+.end1
+{
+    font-family: Cambria;
+	font-weight: lighter;
+	opacity: 30%;
+	font-size: 20px;	
+}
+.end2
+{
+	margin-top: 5px;
+	font-family: Verdana;
+	font-weight: 500;
+	font-size: 30px;
+}
+.end3
+{
+  margin-top: 40px;
+}
+.no1 , .no2 , .no3 , .no4
+{
+	border:2px solid white;
+	border-radius: 100%;
+	padding: 5px 10px;
+	font-size: 18px;
+}
+.no2
+{
+	margin-left: 100px;
+}
+.no4
+{
+	margin-left: 30px;
+}
+.second
+{
+	margin-top: 47px;
+}
+.point
+{
+	margin-left: 15px;
+}
+.end4
+{
+	margin-top: 80px;
+}
+.end4 a
+{
+	text-decoration: none;
+	color: white;
+	background-color: #9400D3;
+	padding: 15px 30px;
+	border-radius: 30px;
+	font-family: "Arial Narrow";
+	font-weight: 600;
+}
+@media only screen and (max-width: 360px)
+{
+	html, body
+{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	position: fixed;
+}
+  .top
+{
+	width: 100%;
+	height: 280px;
+}
+.login
+{
+	margin-right: 30px;
+	width: 10%;
+	padding: 3px 3px;
+	font-size: 10px;
+}
+.content
+{
+ top: 70px;
+ left: 30px;
+}
+.logo1 , .logo2
+{
+	top: 40px;
+	font-size: 10px;
+	left: 40px;
+}
+.content1
+{
+ font-size: 11px;
+}
+.content2
+{
+	font-size: 11px;
+}
+.content3
+{
+	font-size: 10px;
+}
+.signup
+{
+	margin-top: 20px;
+}
+.signup a
+{
+	padding: 8px 8px;
+	font-size: 11px;
+}
+.middle
+{
+   height: 200px;
+}
+.imgmid
+{
+	position: relative;
+	top: 50px;
+	left: 30px;
+	box-shadow: 5px 5px #383838 , 14px 14px #282828;
+	width: 25%;
+	height: 40%;
+}
+.caption
+{
+	top: 300px;
+	left: 150px;
+	width: 50%;
+}
+.caption1
+{
+	font-size: 11px;
+}
+.caption2
+{
+	font-size: 11px;
+}
+.caption3
+{
+	font-size: 7px;
+	margin-top: 18px;
+}
+.more
+{
+	margin-top: 20px;
+}
+.more a
+{
+	padding: 10px 10px;
+	font-size: 9px;
+}
+.bottom
+{
+	height: 180px;
+}
+.imgbtm
+{
+	width: 60%;
+	height: 100%;
+}
+.end
+{
+ top: 30px;
+ left: 30px;
+}
+.end1
+{
+	font-size: 9px;	
+}
+.end2
+{
+	font-size: 10px;
+}
+.end3
+{
+  margin-top: 10px;
+  font-size: 9px;
+}
+.no1 , .no2 , .no3 , .no4
+{
+	padding: 3px 3px;
+	font-size: 9px;
+}
+.no2
+{
+	margin-left: 50px;
+}
+.no4
+{
+	margin-left: 10px;
+}
+.second
+{
+	margin-top: 20px;
+}
+.point
+{
+	margin-left: 5px;
+}
+.end4
+{
+	margin-top: 25px;
+}
+.end4 a
+{
+	padding: 6px 6px;
+	font-size: 8px;
+}
+}
